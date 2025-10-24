@@ -1,4 +1,4 @@
-# My Neovim Configuration
+# My personal NeoVim configuration
 
 ## Plugins Installed
 
