@@ -4,6 +4,7 @@ return {
     branch = "main",
     build = ":TSUpdate",
     lazy = false,
+    opts = { highlight = {enable = true,}, indent = {enable = true,}, }
    },
   {
     {
