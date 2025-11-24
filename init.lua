@@ -1,3 +1,5 @@
+vim.opt.termguicolors = true
+
 require("config.lazy")
 
 local builtin = require('telescope.builtin')
