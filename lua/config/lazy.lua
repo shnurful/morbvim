@@ -37,6 +37,6 @@ require("lazy").setup({
 	checker = { enabled = true , notify = false},
 })
 
-require("nvim-treesitter").install({ "go", "gomod", "gowork", "gosum", "lua", "luadoc", "vim", "vimdoc", "c", "cpp", "bash", "python", "comment"})
+require("nvim-treesitter").install({ "go", "gomod", "gowork", "gosum", "lua", "luadoc", "vim", "vimdoc", "c", "cpp", "bash", "python", "comment", "zig"})
 
 require("telescope").load_extension("ui-select")

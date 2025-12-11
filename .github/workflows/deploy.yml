@@ -1,0 +1,20 @@
+name: Deploy Neovim Config Locally
+
+on:
+  push:
+    branches:
+      - main  # Change to 'master' if that is your default
+
+jobs:
+  update-local-config:
+    runs-on: self-hosted  # This tells GitHub to use your Rocky server
+    steps:
+      - name: Pull latest changes
+        run: |
+          # Navigate to your actual Neovim config directory
+          cd ~/.config/nvim
+          
+          # Pull the changes
+          # The runner is already authenticated for the repo context, 
+          # but git pull relies on the local .git folder's auth.
+          git pull origin main

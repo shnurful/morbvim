@@ -235,6 +235,7 @@ return {
 					},
 				},
 			},
+			zls = {},
 		}
 
 		-- Ensure the servers and tools above are installed
